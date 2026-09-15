@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+requires-python = ">=3.8"
+name = "robologger"
+version = "0.1.7"
+description = ""
+authors = [
+    { name = "Anonymous Authors (withheld for double-blind review)" },
+]
+dependencies = [
+    "numpy",
+    "zarr>=2.16.0,<3.0.0",
+    "loguru",
+    "robotmq",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["robologger*"]
+
+
+[project.urls]
+Homepage = "https://github.com/modpackteleoperation/modpack/tree/main/third_party/robologger"
+
+[project.scripts]
+aggregate_data = "robologger.scripts.aggregate_data:main"

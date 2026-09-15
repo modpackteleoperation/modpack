@@ -1,0 +1,5 @@
+<mujoco>
+  <geom material="254,254,255" mesh="LINK_1" class="visual" />
+  <geom type="sphere" size="0.08" pos="-0.1 0.045 0" class="collision" />
+  <geom type="sphere" size="0.08" pos="-0.1 -0.045 0" class="collision" />
+</mujoco>

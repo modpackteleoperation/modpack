@@ -1,0 +1,50 @@
+# Network endpoints (host, ports) come from modpack/modules/modpack_config.yaml
+# (the robotmq: block). This file holds only robot-specific teleop config.
+active_arms: [right, left]
+
+roles:
+  right_arm:        {type: joint_arm}
+  left_arm:         {type: joint_arm}
+  body:             {type: mobile_base}
+  head:             {type: joint_arm}
+  head_cmd:         {type: joint_arm}
+  right_ft:         {type: sensor_stream}
+  left_ft:          {type: sensor_stream}
+
+# Which systems receive commands from teleop
+active_systems:
+  arms: true    # arm joint targets → set_body_position_targets
+  body: true   # base mobility targets → set_base_twist_command
+  head: true   # Vision Pro neck tracking → head_0/head_1 joint targets
+  base_pub: true  # publish odometry to "body" topic for VP base compensation
+  camera: true # head camera streaming → UDP JPEG RGB to Vision Pro + RMQ "iphone_rgb"
+
+# Camera streaming config (used when active_systems.camera: true)
+vp_ip: "192.168.0.57"    # Vision Pro headset IP
+vp_rgb_port: 6007         # UDP port the VP app listens on for JPEG RGB stream
+vp_rgb_quality: 70        # JPEG quality (0–100)
+camera_key: "camera_head_main_rgb"  # physical main head-left camera on this setup (Vision Pro UDP stream)
+camera_keys:                         # all cameras published to RMQ for logging
+  - camera_head_main_rgb
+  - camera_head_main_right_rgb
+  - camera_left_main_rgb
+  - camera_right_main_rgb
+camera_binning: [2, 2]   # higher-detail source capture for the streamed head camera
+camera_maximize_resolution: true
+camera_fps: 15.0
+
+# Joint mapping from gello frame to RBY1 frame (per arm)
+joint_offsets:
+  left:  [3.14,  -2.6529, 3.14, 3.14, 3.14, -2.39110, 1.5708]
+  right: [0.0, 0.3490658503988655, 3.14, -3.14, -3.14, 3.14,  -1.57079632679]
+joint_signs:
+  left: [-1, 1, 1, -1, -1, -1, -1]
+  right: [1, 1, 1, 1, -1, 1, -1]
+
+# Torque feedback: project RBY1 F/T wrench → per-joint torques → send to Gello PC
+# Safe in sim: set enabled: false (default). Enable only on real robot with F/T sensors.
+torque_feedback_enabled: true
+torque_feedback_gain: 0.2      # scale factor; tune empirically (maybe increase the gain)
+torque_feedback_debug: false   # when true, prints gate + send diagnostics at INFO
+torque_feedback_debug_period_s: 2.0
+urdf_path: "rby1-sdk/models/rby1m/urdf/model.urdf"  # relative to repo root

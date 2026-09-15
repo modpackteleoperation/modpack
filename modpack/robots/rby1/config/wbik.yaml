@@ -1,0 +1,57 @@
+# MuJoCo model path (relative to project root)
+model_path: "/model/rby1/rby1.xml"
+
+# Task cost weights
+ee_pos_cost: 10000
+ee_ori_cost: 10000
+head_pos_cost: 0
+head_ori_cost: [0, 10000, 10000]
+torso_upright_ori_cost: 500
+nominal_posture_cost_main: 50
+nominal_posture_cost_head: 0.0
+current_posture_cost_main: 50
+current_posture_cost_head: 0.0
+com_over_base_pos_cost: 10.0
+com_target_height: 0.8
+base_ground_position_cost: [50.0, 50.0, 100000.0]
+base_ground_orientation_cost: [100000.0, 100000.0, 50.0]
+
+# Nominal/reference joint angles (radians)
+nominal_torso_rad: [0.0, 0.7854, -1.5708, 0.7854, 0.0, 0.0]
+nominal_right_arm_rad: [0.0, -0.0873, 0.0, -2.0944, 0.0, 0.9599, 1.5708]
+nominal_left_arm_rad: [0.0, 0.0873, 0.0, -2.0944, 0.0, 0.9599, -1.5708]
+nominal_head_rad: [0.0, 0.6109]
+
+# Collision avoidance distances (meters)
+safety_distance: 0.01
+influence_distance: 0.02
+
+# Velocity limits
+velocity_limit_scale: 0.9
+base_xy_velocity_limit: 1.0   # m/s
+base_rz_velocity_limit: 1.0   # rad/s
+joint_velocity_limits:
+  torso_0: 2.0944   # 120 deg/s
+  torso_1: 2.0944
+  torso_2: 3.1416   # 180 deg/s
+  torso_3: 3.1416
+  torso_4: 3.1416
+  torso_5: 3.1416
+  left_arm_0: 3.1416
+  left_arm_1: 3.1416
+  left_arm_2: 3.1416
+  left_arm_3: 3.1416
+  left_arm_4: 6.2832   # 360 deg/s
+  left_arm_5: 6.2832
+  left_arm_6: 6.2832
+  right_arm_0: 3.1416
+  right_arm_1: 3.1416
+  right_arm_2: 3.1416
+  right_arm_3: 3.1416
+  right_arm_4: 6.2832
+  right_arm_5: 6.2832
+  right_arm_6: 6.2832
+
+# Solver settings
+solver: "daqp"
+damping: 1.0e-6

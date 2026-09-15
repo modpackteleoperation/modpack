@@ -1,0 +1,2155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="gello">
+  
+  <link name="assembly_2">
+    <inertial>
+      <origin xyz="0.0208767 -0.0599286 -0.0488368" rpy="0 0 0" />
+      <mass value="0.262536" />
+      <inertia ixx="0.000294275" ixy="7.08962e-05" ixz="2.18138e-05" iyy="0.000236163" iyz="-3.42007e-05" izz="0.000358897" />
+    </inertial>
+    
+    <visual>
+      <origin xyz="0.01125 -0.053821 -0.0594706" rpy="-3.14159 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.01125 -0.053821 -0.0594706" rpy="-3.14159 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="4.70168e-16 0.2 9.04793e-19" rpy="-3.14159 1.57772e-30 7.82058e-31" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_4.stl" />
+      </geometry>
+      <material name="part_4_material">
+        <color rgba="0.866667 0.321569 0.156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.70168e-16 0.2 9.04793e-19" rpy="-3.14159 1.57772e-30 7.82058e-31" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_4.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.01125 -0.0904668 -0.0454522" rpy="2.64711e-16 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.01125 -0.0904668 -0.0454522" rpy="2.64711e-16 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.01125 -0.0791531 -0.0341385" rpy="2.64711e-16 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.01125 -0.0791531 -0.0341385" rpy="2.64711e-16 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.04925 -0.0723207 -0.0522846" rpy="3.14159 0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dc13_x540_dummy.stl" />
+      </geometry>
+      <material name="dc13_x540_dummy_material">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.04925 -0.0723207 -0.0522846" rpy="3.14159 0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dc13_x540_dummy.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.01125 -0.0651347 -0.0707843" rpy="-3.14159 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.01125 -0.0651347 -0.0707843" rpy="-3.14159 -0.785398 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="link_1___motor___hinge_assembly">
+    <inertial>
+      <origin xyz="0.0316422 -0.000446368 0.0701053" rpy="0 0 0" />
+      <mass value="0.244524" />
+      <inertia ixx="0.000287522" ixy="1.75486e-07" ixz="-1.74527e-05" iyy="0.000275268" iyz="2.31066e-06" izz="6.7125e-05" />
+    </inertial>
+    
+    <visual>
+      <origin xyz="0.050075 -0.008 0.0655" rpy="1.5708 1.37639e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+      <material name="92125a083_18_8_stainless_steel_hex_drive_flat_head_screw_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.050075 -0.008 0.0655" rpy="1.5708 1.37639e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 0.008 0.0405" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 0.008 0.0405" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 -0.008 0.0405" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 -0.008 0.0405" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.0158125 -0.008 0.0655" rpy="-1.5708 1.55013e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+      <material name="92125a083_18_8_stainless_steel_hex_drive_flat_head_screw_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0158125 -0.008 0.0655" rpy="-1.5708 1.55013e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03325 4.66641e-16 0.1035" rpy="1.5708 2.68486e-14 -2.05682e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dynamixel_motor.stl" />
+      </geometry>
+      <material name="dynamixel_motor_material">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03325 4.66641e-16 0.1035" rpy="1.5708 2.68486e-14 -2.05682e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dynamixel_motor.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 0.008 0.0405" rpy="-1.5708 1.22983e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 0.008 0.0405" rpy="-1.5708 1.22983e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 -0.008 0.0405" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 -0.008 0.0405" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.032 2.64025e-15 0.168063" rpy="1.24037e-14 8.19378e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2.stl" />
+      </geometry>
+      <material name="part_2_material">
+        <color rgba="0.866667 0.321569 0.156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.032 2.64025e-15 0.168063" rpy="1.24037e-14 8.19378e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 0.008 0.0085" rpy="-1.5708 1.3292e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 0.008 0.0085" rpy="-1.5708 1.3292e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 -0.008 0.0085" rpy="-1.5708 1.22983e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 -0.008 0.0085" rpy="-1.5708 1.22983e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.050075 0.008 0.0655" rpy="1.5708 1.70946e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+      <material name="92125a083_18_8_stainless_steel_hex_drive_flat_head_screw_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.050075 0.008 0.0655" rpy="1.5708 1.70946e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.0158125 0.008 0.0655" rpy="-1.5708 1.38605e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+      <material name="92125a083_18_8_stainless_steel_hex_drive_flat_head_screw_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0158125 0.008 0.0655" rpy="-1.5708 1.38605e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92125a083_18_8_stainless_steel_hex_drive_flat_head_screw.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 0.008 0.0085" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 0.008 0.0085" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 -0.008 0.0085" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 -0.008 0.0085" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.011 1.23512e-15 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 1.23512e-15 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 0.00777817 -0.001125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 -0.001125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 0.00777817 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-3.05311e-16 -0.011 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-3.05311e-16 -0.011 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="2.42861e-16 -0.011 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.42861e-16 -0.011 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-7.63278e-17 0.011 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-7.63278e-17 0.011 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0 6.93889e-18 0.0245" rpy="-1.5708 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr13_h101.stl" />
+      </geometry>
+      <material name="fr13_h101_material">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 6.93889e-18 0.0245" rpy="-1.5708 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr13_h101.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.011 -7.97973e-16 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -7.97973e-16 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_9_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 -4.22387e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="4.85723e-16 0.011 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_10_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.85723e-16 0.011 0.05025" rpy="1.31888e-14 4.22252e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="link_2___motor___hinge">
+    <inertial>
+      <origin xyz="0.1616 5.30835e-07 0.0241568" rpy="0 0 0" />
+      <mass value="0.195384" />
+      <inertia ixx="5.17555e-05" ixy="1.30677e-08" ixz="6.21562e-06" iyy="0.00192182" iyz="-3.85914e-11" izz="0.00189631" />
+    </inertial>
+    
+    <visual>
+      <origin xyz="0.26625 1.14908e-14 0.02425" rpy="-3.14159 9.72143e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dummy_dc12.stl" />
+      </geometry>
+      <material name="dummy_dc12_material">
+        <color rgba="0.980392 0.713725 0.00392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.26625 1.14908e-14 0.02425" rpy="-3.14159 9.72143e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dummy_dc12.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 0.008 0.0405" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 0.008 0.0405" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 0.008 0.0085" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 0.008 0.0085" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 0.008 0.0085" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 0.008 0.0085" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.0325679 -5.55112e-17 0.0245" rpy="6.15577e-14 7.56861e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__2.stl" />
+      </geometry>
+      <material name="part_2_2_material">
+        <color rgba="0.866667 0.321569 0.156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0325679 -5.55112e-17 0.0245" rpy="6.15577e-14 7.56861e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__2.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 0.008 0.0405" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 0.008 0.0405" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 -0.008 0.0405" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 -0.008 0.0405" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 -0.008 0.0085" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 -0.008 0.0085" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03478 -0.008 0.0405" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03478 -0.008 0.0405" rpy="-1.5708 4.62532e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.23425 -0.011 0.039025" rpy="8.71928e-14 7.9157e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.23425 -0.011 0.039025" rpy="8.71928e-14 7.9157e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.23425 0.011 0.009975" rpy="-3.14159 7.99286e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.23425 0.011 0.009975" rpy="-3.14159 7.99286e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.23425 -0.011 0.009975" rpy="-3.14159 7.99286e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.23425 -0.011 0.009975" rpy="-3.14159 7.99286e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.23425 0.011 0.039025" rpy="8.71928e-14 7.9157e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.23425 0.011 0.039025" rpy="8.71928e-14 7.9157e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.03145 -0.008 0.0085" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.03145 -0.008 0.0085" rpy="1.5708 -0.0872665 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.011 -5.55112e-16 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_11_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -5.55112e-16 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.050125" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_12_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.050125" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_13_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="5.55112e-17 0.011 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_14_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="5.55112e-17 0.011 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-1.79023e-15 0.011 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_15_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.79023e-15 0.011 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="1.26288e-15 -0.011 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_16_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.26288e-15 -0.011 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 0.00777817 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_17_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="1.38778e-17 0 0.0245" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr13_h101.stl" />
+      </geometry>
+      <material name="fr13_h101_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.38778e-17 0 0.0245" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr13_h101.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.011 9.99201e-16 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_18_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 9.99201e-16 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00777817 0.00777817 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_19_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 0.05025" rpy="4.56736e-14 7.60786e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-9.71445e-16 -0.011 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_20_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-9.71445e-16 -0.011 -0.00125" rpy="3.14159 -7.59866e-14 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="link_3___motor___hinge">
+    <inertial>
+      <origin xyz="-0.0815265 0.108947 -0.0193705" rpy="0 0 0" />
+      <mass value="0.346702" />
+      <inertia ixx="0.00325886" ixy="0.000475834" ixz="-1.61773e-06" iyy="0.000263092" iyz="1.59815e-05" izz="0.00341423" />
+    </inertial>
+    
+    <visual>
+      <origin xyz="-0.10512 0.212967 -0.0335" rpy="3.14159 2.96953e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.10512 0.212967 -0.0335" rpy="3.14159 2.96953e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.03078 0.006 -0.007" rpy="4.78194e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_9_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.03078 0.006 -0.007" rpy="4.78194e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.10512 0.212967 -0.0045" rpy="-1.89575e-14 2.45344e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.10512 0.212967 -0.0045" rpy="-1.89575e-14 2.45344e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.02795 0.006 -0.031" rpy="6.46878e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_9_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.02795 0.006 -0.031" rpy="6.46878e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.02795 -0.006 -0.007" rpy="4.03809e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_10_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.02795 -0.006 -0.007" rpy="4.03809e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.03078 -0.006 -0.007" rpy="2.66349e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_10_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.03078 -0.006 -0.007" rpy="2.66349e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.118871 -0.00462979 -0.019" rpy="-2.29782e-14 -2.17732e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__3.stl" />
+      </geometry>
+      <material name="part_2_3_material">
+        <color rgba="0.866667 0.321569 0.156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.118871 -0.00462979 -0.019" rpy="-2.29782e-14 -2.17732e-14 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__3.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.03078 -0.006 -0.031" rpy="4.3892e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_11_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.03078 -0.006 -0.031" rpy="4.3892e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.03078 0.006 -0.031" rpy="3.14159 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a323_m2_5x0_45x5_6_heat_set_insert_12_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.03078 0.006 -0.031" rpy="3.14159 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a323_m2_5x0_45x5_6_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.08312 0.212967 -0.0335" rpy="3.14159 1.19234e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.08312 0.212967 -0.0335" rpy="3.14159 1.19234e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.09412 0.244967 -0.02" rpy="3.14159 1.52643e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dummy_dc12.stl" />
+      </geometry>
+      <material name="dummy_dc12_2_material">
+        <color rgba="0.980392 0.713725 0.00392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.09412 0.244967 -0.02" rpy="3.14159 1.52643e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dummy_dc12.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.02795 -0.006 -0.031" rpy="-1.5708 3.10074e-15 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_11_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.02795 -0.006 -0.031" rpy="-1.5708 3.10074e-15 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.02795 0.006 -0.007" rpy="-1.5708 4.95493e-15 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_12_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.02795 0.006 -0.007" rpy="-1.5708 4.95493e-15 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.08312 0.212967 -0.0045" rpy="-1.48473e-14 3.00306e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.08312 0.212967 -0.0045" rpy="-1.48473e-14 3.00306e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 0.00565685 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 0.00565685 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.008 6.38378e-16 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.008 6.38378e-16 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="2.77556e-17 5.55112e-17 -0.019" rpy="-1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr12_h101.stl" />
+      </geometry>
+      <material name="fr12_h101_material">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.77556e-17 5.55112e-17 -0.019" rpy="-1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr12_h101.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 -0.00565685 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 -0.00565685 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-1.11022e-16 -0.008 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.11022e-16 -0.008 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 -0.00565685 0.00125" rpy="4.46075e-14 4.05501e-15 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 -0.00565685 0.00125" rpy="4.46075e-14 4.05501e-15 -1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.008 4.996e-16 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.008 4.996e-16 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="8.32667e-17 -0.008 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="8.32667e-17 -0.008 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-4.16334e-16 0.008 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-4.16334e-16 0.008 -0.03925" rpy="3.14159 -3.07357e-15 1.5708" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-9.4369e-16 0.008 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_9_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-9.4369e-16 0.008 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 0.00565685 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_10_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 0.00565685 0.00125" rpy="-5.88942e-15 -3.49818e-14 0.364004" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="link_4___motor___hinge_assembly">
+    <inertial>
+      <origin xyz="-0.000681164 0.0689603 0.0191423" rpy="0 0 0" />
+      <mass value="0.106841" />
+      <inertia ixx="0.000119805" ixy="1.99639e-06" ixz="-1.09709e-09" iyy="2.2373e-05" iyz="-3.35195e-07" izz="0.000117359" />
+    </inertial>
+    
+    <visual>
+      <origin xyz="4.32131e-10 0.1028 0.01925" rpy="1.47313e-14 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dc11_a01_dummy.stl" />
+      </geometry>
+      <material name="dc11_a01_dummy_material">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.32131e-10 0.1028 0.01925" rpy="1.47313e-14 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dc11_a01_dummy.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.01375 0.0708 0.03" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_9_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.01375 0.0708 0.03" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.01375 0.0708 0.008" rpy="1.76213e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_10_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.01375 0.0708 0.008" rpy="1.76213e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.006 0.0280848 0.007" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_13_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.006 0.0280848 0.007" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.01375 0.0708 0.008" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_11_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.01375 0.0708 0.008" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.006 0.029715 0.031" rpy="1.5708 1.57764e-15 7.97973e-17" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.006 0.029715 0.031" rpy="1.5708 1.57764e-15 7.97973e-17" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.006 0.0280848 0.007" rpy="1.5708 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_14_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.006 0.0280848 0.007" rpy="1.5708 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.006 0.0280848 0.031" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_15_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.006 0.0280848 0.031" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.006 0.029715 0.031" rpy="1.5708 1.43573e-15 7.5287e-16" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.006 0.029715 0.031" rpy="1.5708 1.43573e-15 7.5287e-16" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.01375 0.0708 0.03" rpy="1.76213e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_12_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.01375 0.0708 0.03" rpy="1.76213e-14 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.006 0.029715 0.007" rpy="1.5708 -7.64029e-16 -5.20417e-16" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.006 0.029715 0.007" rpy="1.5708 -7.64029e-16 -5.20417e-16" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-1.4988e-15 0.0315 0.0643503" rpy="1.15735e-15 -1.29736e-16 8.32667e-17" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__4.stl" />
+      </geometry>
+      <material name="part_2_4_material">
+        <color rgba="0.866667 0.321569 0.156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.4988e-15 0.0315 0.0643503" rpy="1.15735e-15 -1.29736e-16 8.32667e-17" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__4.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.006 0.0284262 0.031" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+      <material name="92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long_16_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.006 0.0284262 0.031" rpy="1.5708 1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/92000a103_pan_head_m2_5_x_0_45mm_thread__5mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.006 0.029715 0.007" rpy="1.5708 -1.02797e-16 -3.85109e-16" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.006 0.029715 0.007" rpy="1.5708 -1.02797e-16 -3.85109e-16" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 0.00565685 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_11_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 0.00565685 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-2.38698e-15 0.008 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_12_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.38698e-15 0.008 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="5.55112e-17 0 0.019" rpy="2.27856e-31 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr12_h101.stl" />
+      </geometry>
+      <material name="fr12_h101_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="5.55112e-17 0 0.019" rpy="2.27856e-31 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr12_h101.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00565685 0.00565685 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_13_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 0.00565685 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.008 -1.249e-15 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_14_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.008 -1.249e-15 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00565685 0.00565685 -0.00125" rpy="3.14159 4.55548e-14 1.2837e-15" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_15_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 0.00565685 -0.00125" rpy="3.14159 4.55548e-14 1.2837e-15" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-1.38778e-15 0.008 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_16_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-15 0.008 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.008 -1.83881e-15 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_17_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.008 -1.83881e-15 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.008 -4.78784e-16 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_18_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.008 -4.78784e-16 0.03925" rpy="1.71089e-14 -4.43296e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.008 -1.54737e-15 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_19_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.008 -1.54737e-15 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 0.00565685 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_20_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 0.00565685 -0.00125" rpy="-3.14159 -3.27822e-14 2.7498" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="link_5___motor___hinge">
+    <inertial>
+      <origin xyz="0.000136176 0.0888269 0.0234144" rpy="0 0 0" />
+      <mass value="0.123352" />
+      <inertia ixx="0.00021887" ixy="-4.85487e-07" ixz="-9.53622e-08" iyy="3.6768e-05" iyz="-1.51309e-05" izz="0.000200544" />
+    </inertial>
+    
+    <visual>
+      <origin xyz="-0.011 0.129743 0.008625" rpy="-1.5708 3.15547e-14 -1.38223e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_13_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.011 0.129743 0.008625" rpy="-1.5708 3.15547e-14 -1.38223e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.006 0.029715 0.031" rpy="-1.5708 -2.46588e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.006 0.029715 0.031" rpy="-1.5708 -2.46588e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-3.88578e-16 0.0220056 0.0176851" rpy="-1.35821e-14 2.73054e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__5.stl" />
+      </geometry>
+      <material name="part_2_5_material">
+        <color rgba="0.866667 0.321569 0.156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-3.88578e-16 0.0220056 0.0176851" rpy="-1.35821e-14 2.73054e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__5.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.006 0.029715 0.007" rpy="-1.5708 -2.82868e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.006 0.029715 0.007" rpy="-1.5708 -2.82868e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.006 0.029715 0.007" rpy="-1.5708 -2.90449e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.006 0.029715 0.007" rpy="-1.5708 -2.90449e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.006 0.029715 0.031" rpy="-1.5708 -2.83844e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+      <material name="94180a321_m2_5x0_45x3_4_heat_set_insert_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.006 0.029715 0.031" rpy="-1.5708 -2.83844e-14 3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/94180a321_m2_5x0_45x3_4_heat_set_insert.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.011 0.129743 0.008625" rpy="-1.5708 3.15547e-14 -1.38223e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+      <material name="91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long_14_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 0.129743 0.008625" rpy="-1.5708 3.15547e-14 -1.38223e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91294a020_black_oxide_alloy_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__12_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00025 0.1161 0.040625" rpy="1.5708 1.76871e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dc11_a01_dummy.stl" />
+      </geometry>
+      <material name="dc11_a01_dummy_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00025 0.1161 0.040625" rpy="1.5708 1.76871e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/dc11_a01_dummy.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 0.00565685 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_21_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 0.00565685 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-7.21645e-16 0.008 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_22_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-7.21645e-16 0.008 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="6.93889e-18 0 0.019" rpy="5.51844e-30 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr12_h101.stl" />
+      </geometry>
+      <material name="fr12_h101_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="6.93889e-18 0 0.019" rpy="5.51844e-30 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/fr12_h101.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00565685 0.00565685 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_23_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 0.00565685 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.008 -2.27596e-15 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_24_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.008 -2.27596e-15 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.00565685 0.00565685 -0.00125" rpy="-3.14159 -3.90488e-15 7.97626e-15" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_25_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 0.00565685 -0.00125" rpy="-3.14159 -3.90488e-15 7.97626e-15" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="1.57166e-15 0.008 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_26_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.57166e-15 0.008 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="0.008 -1.11022e-16 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_27_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.008 -1.11022e-16 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.008 -3.05311e-16 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_28_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.008 -3.05311e-16 0.03925" rpy="-1.2483e-14 2.89001e-14 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.008 1.41553e-15 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_29_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.008 1.41553e-15 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.00565685 0.00565685 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_30_material">
+        <color rgba="0.752941 0.752941 0.752941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00565685 0.00565685 -0.00125" rpy="3.14159 1.31324e-14 2.5208" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="assembly_2_2">
+    <inertial>
+      <origin xyz="-0.00980578 -0.133763 0.034237" rpy="0 0 0" />
+      <mass value="0.0680389" />
+      <inertia ixx="0.000307136" ixy="-3.75569e-05" ixz="1.2316e-05" iyy="4.02865e-05" iyz="6.39415e-05" izz="0.000294303" />
+    </inertial>
+    
+    <visual>
+      <origin xyz="0.0253634 -0.182101 0.0385062" rpy="-1.80655e-14 8.5319e-15 4.53371e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_1.stl" />
+      </geometry>
+      <material name="part_1_material">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0253634 -0.182101 0.0385062" rpy="-1.80655e-14 8.5319e-15 4.53371e-14" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_1.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.1228 -0.192101 0.0597759" rpy="-1.5708 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_4__2.stl" />
+      </geometry>
+      <material name="part_4_2_material">
+        <color rgba="0.980392 0.713725 0.00392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1228 -0.192101 0.0597759" rpy="-1.5708 -1.5708 0" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_4__2.stl" />
+      </geometry>
+    </collision>
+    
+    <visual>
+      <origin xyz="-0.021 -0.186451 -0.0312241" rpy="-3.14159 5.33761e-16 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__6.stl" />
+      </geometry>
+      <material name="part_2_6_material">
+        <color rgba="0.866667 0.321569 0.156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.021 -0.186451 -0.0312241" rpy="-3.14159 5.33761e-16 -3.14159" />
+      <geometry>
+        <mesh filename="package://gello_description/assets/part_2__6.stl" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="6" type="revolute">
+    <origin xyz="0.00025 0.137 0.040625" rpy="1.5708 0 -3.14159" />
+    <parent link="link_5___motor___hinge" />
+    <child link="assembly_2_2" />
+    <axis xyz="0 0 1" />
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  
+  <joint name="5" type="revolute">
+    <origin xyz="0.017 0.1028 0.01925" rpy="0 -1.5708 0" />
+    <parent link="link_4___motor___hinge_assembly" />
+    <child link="link_5___motor___hinge" />
+    <axis xyz="0 0 1" />
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  
+  <joint name="4" type="revolute">
+    <origin xyz="-0.09412 0.244967 -0.001" rpy="3.14159 0 3.14159" />
+    <parent link="link_3___motor___hinge" />
+    <child link="link_4___motor___hinge_assembly" />
+    <axis xyz="0 0 1" />
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  
+  <joint name="3" type="revolute">
+    <origin xyz="0.26625 0 0.04325" rpy="0 0 1.5708" />
+    <parent link="link_2___motor___hinge" />
+    <child link="link_3___motor___hinge" />
+    <axis xyz="0 0 1" />
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  
+  <joint name="2" type="revolute">
+    <origin xyz="0.03325 0.0245 0.1035" rpy="-1.5708 0 3.14159" />
+    <parent link="link_1___motor___hinge_assembly" />
+    <child link="link_2___motor___hinge" />
+    <axis xyz="0 0 1" />
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  
+  <joint name="r1" type="revolute">
+    <origin xyz="0.04925 -0.0549966 -0.0349605" rpy="0 0 0" />
+    <parent link="assembly_2" />
+    <child link="link_1___motor___hinge_assembly" />
+    <axis xyz="0 0 1" />
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+</robot>

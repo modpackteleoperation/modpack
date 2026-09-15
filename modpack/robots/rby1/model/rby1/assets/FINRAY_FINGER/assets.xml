@@ -1,0 +1,14 @@
+<mujoco>
+  <texture type="2d" name="finray_finger_texture"
+           file="./one_piece_wide_grasp_finray_finger_color.png"/>
+  <material name="finray_finger_material"
+            texture="finray_finger_texture"
+            specular="0.5"
+            shininess="0.0"/>
+  <mesh name="finray_finger_visual"
+        file="./one_piece_wide_grasp_finray_finger.obj"
+        scale="1.0 1.0 1.0"/>
+  <mesh name="finray_finger_collider"
+        file="./finray_collider.obj"
+        scale="1.0 1.0 1.0"/>
+</mujoco>

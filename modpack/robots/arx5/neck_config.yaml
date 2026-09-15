@@ -1,0 +1,13 @@
+neck_interface: "can11"
+frequency: 30.0 # Hz
+camera_config:
+  iphone_rgb:
+    type: "rgb"
+    width: 960
+    height: 720
+    fps: 30
+  iphone_depth:
+    type: "depth"
+    width: 256
+    height: 192
+    fps: 30

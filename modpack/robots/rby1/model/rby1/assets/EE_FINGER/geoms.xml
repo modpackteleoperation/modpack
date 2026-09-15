@@ -1,0 +1,22 @@
+<mujoco>
+  <geom mesh="EE_FINGER_0" material="191,191,191" class="visual"/>
+  <geom mesh="EE_FINGER_1" material="70,70,70_FINGER" class="visual"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0.01 -0.005" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0 -0.005" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 -0.01 -0.005" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0.01 -0.015" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0 -0.015" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 -0.01 -0.015" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0.0085 -0.025" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0 -0.025" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 -0.0085 -0.025" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0.0075 -0.035" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0 -0.035" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 -0.0075 -0.035" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0.0065 -0.045" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0 -0.045" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 -0.0065 -0.045" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0.0055 -0.055" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 0 -0.055" class="collision"/>
+  <geom type="sphere" size="0.005" pos="0.0015 -0.0055 -0.055" class="collision"/>
+</mujoco>

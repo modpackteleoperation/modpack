@@ -1,0 +1,247 @@
+topology: managed
+
+control:
+  base_ctrl_freq: 30
+  policy_control_period: 0.1
+
+# Neck (ARX5 Cartesian) safety. The step guard refuses a command whose EEF pose
+# jumps more than the caps below from the last accepted command and holds
+# instead — catches a sudden lurch before it reaches the controller.
+neck:
+  enable_step_guard: true
+  max_cmd_pos_step_m: 0.15    # m;   normal tracking is << this
+  max_cmd_rot_step_rad: 0.6   # rad; normal tracking is << this
+
+roles:
+  right_arm:    {type: joint_arm,    dof: 6, command_topic: right, activation_target: arx}
+  left_arm:     {type: joint_arm,    dof: 6, command_topic: left,  activation_target: arx}
+  body:         {type: mobile_base}
+  neck:         {type: cartesian_arm, command_topic: neck_target_pose, activation_target: neck}
+  right_camera: {type: video_stream, topic: right_wrist_camera_0}
+  left_camera:  {type: video_stream, topic: left_wrist_camera_0}
+
+modules:
+  - gello
+  - logger
+  - vision_pro
+  - base
+
+debug:
+  vision_pro: true
+  gello: true
+  base: true
+
+activation_buttons:
+  1: arx
+  2: base
+  3: vision_pro
+  4: gello
+
+logging_streams:
+  - logger_name: right_arm
+    port: 5601
+    topic: right_arm
+    logger_type: joint_state
+    control_freq: 100.0
+    joint_dof: 6
+    enabled: true
+    gripper_port: 5603
+    gripper_logger_name: right_end_effector
+
+  - logger_name: left_arm
+    port: 5602
+    topic: left_arm
+    logger_type: joint_state
+    control_freq: 100.0
+    joint_dof: 6
+    enabled: true
+    gripper_port: 5604
+    gripper_logger_name: left_end_effector
+
+  - logger_name: head
+    port: 5605
+    topic: neck
+    logger_type: cartesian_state
+    control_freq: 100.0
+    enabled: true
+
+  - logger_name: body
+    topic: body
+    target_topic: body_target
+    logger_type: base_state
+    port: 5610
+    control_freq: 30.0
+    enabled: true
+
+  - logger_type: camera
+    camera_key: right_wrist_camera_0
+    port: 5606
+    width: 1280
+    height: 720
+    fps: 30.0
+    enabled: true
+
+  - logger_type: camera
+    camera_key: left_wrist_camera_0
+    port: 5607
+    width: 1280
+    height: 720
+    fps: 30.0
+    enabled: true
+
+  # iPhone (head) streams: published RAW (not JPEG) on the camera server.
+  # Dims match neck_config.yaml's camera_config (rgb 960x720, depth 256x192).
+  # depth_range defaults to (0, 4) in the logger.
+  - logger_type: camera
+    camera_key: iphone_rgb
+    camera_type: rgb
+    encoding: raw
+    port: 5608
+    width: 960
+    height: 720
+    fps: 30.0
+    enabled: true
+
+  - logger_type: camera
+    camera_key: iphone_depth
+    camera_type: depth
+    encoding: raw
+    port: 5609
+    width: 256
+    height: 192
+    fps: 30.0
+    enabled: true
+
+robot_pc:
+  user: robot
+  workspace: ~/modpack
+  conda_env: modpack
+  scripts:
+    - python -m modpack --pc-id robot --robot arx5
+    - python -m modpack.robots.arx5.run --arm right
+    - python -m modpack.robots.arx5.run --arm left
+    - python -m modpack.robots.arx5.run --neck
+    - python -m modpack.robots.arx5.run --cameras
+    - python -m modpack.robots.arx5.run --iphone
+
+gello:
+  frequency: 100
+  active_arms: [right, left]
+
+  hardware:
+    right:
+      port: "/dev/ttyUSB0"
+      baudrate: 1000000
+      motors:
+        1: {joint_idx: 0, model: "XM540", control: "torque", current_limit: 100}
+        2: {joint_idx: 1, model: "XM540", control: "torque", current_limit: 200}
+        3: {joint_idx: 2, model: "XM430", control: "torque", current_limit: 200}
+        4: {joint_idx: 3, model: "XM430", control: "torque", current_limit: 60}
+        5: {joint_idx: 4, model: "XL430", control: "position", current_limit: 500}
+        6: {joint_idx: 5, model: "XL430", control: "position", current_limit: 100}
+      gripper_motor:
+        id: 7
+        model: "XL330"
+        control: "position"
+        current_limit: 100
+        offset: 0.0
+        sign: 1
+      actuated_motors: [1, 2, 3, 4]
+      zero_position_offsets: [2.5587, 4.6848, 4.7109, 4.0712, 3.1508, 1.7027]
+      enhanced_control:
+        enable: true
+        urdf_path: "arm_models/my-robot_right/robot.urdf"
+        base_link: "assembly_2"
+        tip_link: "assembly_2_2"
+        gains:
+          kp: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          kd: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+
+    left:
+      port: "/dev/ttyUSB1"
+      baudrate: 1000000
+      motors:
+        1: {joint_idx: 0, model: "XM540", control: "torque", current_limit: 100}
+        2: {joint_idx: 1, model: "XM540", control: "torque", current_limit: 200}
+        3: {joint_idx: 2, model: "XM430", control: "torque", current_limit: 200}
+        4: {joint_idx: 3, model: "XM430", control: "torque", current_limit: 60}
+        5: {joint_idx: 4, model: "XL430", control: "position", current_limit: 500}
+        6: {joint_idx: 5, model: "XL430", control: "position", current_limit: 100}
+      actuated_motors: [1, 2, 3, 4]
+      zero_position_offsets: [0.0859029241215959, 4.990039502991991, 4.980835618264677, 0.22089323345553233, 2.360796432556002, 2.480446934011082]
+      enhanced_control:
+        enable: true
+        urdf_path: "arm_models/my-robot_left/robot.urdf"
+        base_link: "assembly_1"
+        tip_link: "assembly_3"
+        gains:
+          kp: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          kd: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+
+    use_inverse_dynamics: true
+    use_singularity_avoidance: true
+    singularity_threshold: 0.01
+
+  safety:
+    enable_joint_limits: false
+    enable_step_delta: false
+    max_step_delta: 0.3          # radians per cycle
+    latch_return_tolerance: 0.05 # radians
+    joint_limits: {}             # e.g. 0: {min: -3.14, max: 3.14}
+
+  port_configs:
+    "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_XXXXXXXX-if00-port0":
+      joint_offsets: [2.79252680319, 3.14159265359, 4.71238898038, 2.35619449019, 3.14159265359, 3.14159265359, 0]
+      joint_signs: [1, 1, 1, 1, 1, 1, 1]
+      robot_joint_signs: [1, 1, 1, 1, 1, 1]
+      gripper:
+        open_angle_deg: 248
+        closed_angle_deg: 290
+        gripper_invert: false
+        gripper_motor_id: 7
+        model: "XL330"
+        control: "position"
+        sign: 1
+        current_limit: 100
+
+    "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_YYYYYYYY-if00-port0":
+      joint_offsets: [3.141, 1.571, -1.571, 3.141, 4.712, 0.0, 0]
+      joint_signs: [1, 1, 1, -1, 1, 1, 1]
+      robot_joint_signs: [1, 1, 1, 1, 1, 1]
+      gripper:
+        open_angle_deg: 249
+        closed_angle_deg: 291
+        gripper_invert: false
+        gripper_motor_id: 7
+        model: "XL330"
+        control: "position"
+        sign: 1
+        current_limit: 100
+
+    "/dev/ttyUSB0":
+      joint_offsets: [2.685165397041933, 5.267884050442774, 5.329524840079569, 3.66, 3.1062043077717343, 1.3808740636456158, 0]
+      joint_signs: [1, -1, -1, -1, 1, 1, 1]
+      robot_joint_signs: [1, 1, 1, 1, 1, 1]
+      gripper:
+        open_angle_deg: 200
+        closed_angle_deg: 190
+        gripper_invert: false
+        gripper_motor_id: 7
+        model: "XL330"
+        control: "position"
+        sign: 1
+        current_limit: 100
+
+    "/dev/ttyUSB1":
+      joint_offsets: [6.261709576149188, 4.503767593232243, 4.720058884324118, 0.02761165418194154, 2.291767297101148, 3.117048960983623, 0]
+      joint_signs: [1, 1, 1, 1, 1, 1, 1]
+      robot_joint_signs: [1, 1, 1, 1, 1, 1]
+      gripper:
+        open_angle_deg: 80
+        closed_angle_deg: 90
+        gripper_invert: false
+        gripper_motor_id: 7
+        model: "XL330"
+        control: "position"
+        sign: 1
+        current_limit: 100

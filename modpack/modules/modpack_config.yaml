@@ -1,0 +1,24 @@
+# Global infrastructure config containing network endpoints, RMQ ports, run metadata.
+# Edit robots/<name>/config.yaml for anything robot-specific.
+
+# active_systems is derived from the robot config's modules: list (robots/<name>/config.yaml).
+# Use --modules on the CLI to override for a single run (e.g. --modules logger for cameras only).
+
+robotmq:
+  host: 0.0.0.0
+  gello_pc_ip: 192.168.0.225
+  robot_pc_ip: 192.168.0.9
+  port: 5555
+  activation_port: 5556
+  cam_port: 5570
+  feedback_port: 5581
+  logging:
+    log_raw_gello_leader: false
+
+# Episode log location and naming (robologger MainLogger).
+# Recorded episodes land under <root_dir>/<project_name>/<task_name>/<run_name>.
+runs:
+  root_dir: data
+  project_name: demo_project
+  task_name: task_1
+  run_name: run_001

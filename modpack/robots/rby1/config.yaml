@@ -1,0 +1,241 @@
+# Robot manifest — single source of truth for rby1.
+# Defines: topology, roles, modules, logging_streams, gello hardware.
+# Network config (host, ports) lives in modpack/modules/modpack_config.yaml.
+topology: unmanaged
+
+control:
+  base_ctrl_freq: 30
+  policy_control_period: 0.1
+
+roles:
+  right_arm: {type: joint_arm,    dof: 7, command_topic: right}
+  left_arm:  {type: joint_arm,    dof: 7, command_topic: left}
+  body:      {type: mobile_base}
+  right_ft:  {type: sensor_stream}
+  left_ft:   {type: sensor_stream}
+  head:      {type: joint_arm,    dof: 2, command_topic: neck_target_pose}
+
+modules:
+  - gello
+  - logger
+  - vision_pro
+  - base
+
+debug:
+  vision_pro: true
+  gello: false
+  base: true
+
+module_overrides:
+  base:
+    use_mock_base: true
+
+activation_buttons:
+  2: base
+  # 3: vision_pro
+  4: gello
+
+logging_streams:
+  - logger_name: left_arm
+    port: 5593
+    control_freq: 100.0
+    enabled: true
+    joint_dof: 7
+    log_eef: false
+    gripper_port: 5590
+    gripper_logger_name: left_end_effector
+    topics:
+      - topic: left_arm_torque
+        role: torque
+      - topic: left_arm
+        role: joint_state
+      - topic: left_ft
+        role: ft
+
+  - logger_name: right_arm
+    port: 5592
+    control_freq: 100.0
+    enabled: true
+    joint_dof: 7
+    log_eef: false
+    # topic: right_arm
+    gripper_port: 5591
+    gripper_logger_name: right_end_effector
+    topics:
+      - topic: right_arm_torque
+        role: torque
+      - topic: right_arm
+        role: joint_state
+      - topic: right_ft
+        role: ft
+
+  # - logger_name: right_arm
+  #   topic: right_arm
+  #   logger_type: joint_state
+  #   port: 5592
+  #   control_freq: 100.0
+  #   enabled: true
+  #   joint_dof: 7
+  #   log_eef: false
+  #   gripper_port: 5591
+  #   gripper_logger_name: right_end_effector
+  - topic: body
+    target_topic: body_target
+    logger_name: body
+    port: 5568
+    logger_type: base_state
+    control_freq: 30.0
+    enabled: true
+  - logger_name: head
+    port: 5594
+    control_freq: 30.0
+    enabled: true
+    joint_dof: 2
+    log_eef: false
+    topics:
+      - topic: head_cmd
+        role: joint_command
+        frame_id_default: rby1_joint_cmd
+        log_gripper_scalar: false
+      - topic: head
+        role: joint_state
+  - logger_type: camera
+    camera_key: camera_head_main_rgb
+    port: 5571
+    width: 960
+    height: 600
+    fps: 15.0
+    enabled: true
+  - logger_type: camera
+    camera_key: camera_head_main_right_rgb
+    port: 5595
+    width: 960
+    height: 600
+    fps: 15.0
+    enabled: true
+  - logger_type: camera
+    camera_key: camera_left_main_rgb
+    port: 5596
+    width: 1224
+    height: 1024
+    fps: 30.0
+    enabled: true
+  - logger_type: camera
+    camera_key: camera_right_main_rgb
+    port: 5597
+    width: 1224
+    height: 1024
+    fps: 30.0
+    enabled: true
+  # - logger_name: left_arm_torque
+  #   topic: left_arm_torque
+  #   logger_type: torque
+  #   port: 5598
+  #   control_freq: 100.0
+  #   enabled: true
+  #   joint_dof: 7
+  # - logger_name: right_arm_torque
+  #   topic: right_arm_torque
+  #   logger_type: torque
+  #   port: 5599
+  #   control_freq: 100.0
+  #   enabled: true
+  #   joint_dof: 7
+
+
+# Network config (host, port, activation_port, cam_port, feedback_port) lives in
+# modpack/modules/modpack_config.yaml under robotmq:. The coordinator reads that
+# file at startup and ignores any rmq: block here.
+
+gello:
+  frequency: 100.0
+  active_arms: [right, left]
+
+  hardware:
+    right:
+      port: "/dev/ttyUSB0"
+      baudrate: 1000000
+      test_motor_ids: [1, 2, 3, 4, 5, 6, 7]
+      motors:
+        1: {joint_idx: 0, model: "XM540", control: "torque", current_limit: 200, gravity_current_limit: 200, contact_current_limit: 150}
+        2: {joint_idx: 1, model: "XM540", control: "torque", current_limit: 50,  gravity_current_limit: 50,  contact_current_limit: 50}
+        3: {joint_idx: 2, model: "XM540", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 100}
+        4: {joint_idx: 3, model: "XM540", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 100}
+        5: {joint_idx: 4, model: "XM540", control: "torque", current_limit: 0,   gravity_current_limit: 0,   contact_current_limit: 0}
+        6: {joint_idx: 5, model: "XM430", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 80}
+        7: {joint_idx: 6, model: "XM430", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 80}
+      actuated_motors: [1, 2, 3, 4, 6]
+      zero_position_offsets: [0.1442, 5.501, 2.9422, 1.7073, 3.1385, 2.844, 3.0357]
+      enhanced_control:
+        enable: true
+        urdf_path: "arm_models/rby1-right/robot.urdf"
+        base_link: "assembly_2"
+        tip_link: "assembly_2_3"
+        gains:
+          kp: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          kd: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      haptic_feedback:
+        feedback_scale: 1.0
+        max_torque_rate: 50.0
+
+    left:
+      port: "/dev/ttyUSB1"
+      baudrate: 1000000
+      test_motor_ids: [1, 2, 3, 4, 5, 6, 7]
+      motors:
+        1: {joint_idx: 0, model: "XM540", control: "torque", current_limit: 200, gravity_current_limit: 200, contact_current_limit: 150}
+        2: {joint_idx: 1, model: "XM540", control: "torque", current_limit: 50,  gravity_current_limit: 50,  contact_current_limit: 50}
+        3: {joint_idx: 2, model: "XM540", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 100}
+        4: {joint_idx: 3, model: "XM540", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 100}
+        5: {joint_idx: 4, model: "XM540", control: "torque", current_limit: 0,   gravity_current_limit: 0,   contact_current_limit: 0}
+        6: {joint_idx: 5, model: "XM430", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 80}
+        7: {joint_idx: 6, model: "XM430", control: "torque", current_limit: 100, gravity_current_limit: 100, contact_current_limit: 80}
+      actuated_motors: [1, 2, 3, 4, 6]
+      zero_position_offsets: [3.0496, 3.0326, 3.1631, 3.1876, 3.2198, 4.1157, 3.4561]
+      enhanced_control:
+        enable: true
+        urdf_path: "arm_models/rby1-left/robot.urdf"
+        base_link: "assembly_2"
+        tip_link: "assembly_3_2"
+        gains:
+          kp: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          kd: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      haptic_feedback:
+        feedback_scale: 0.8
+        max_torque_rate: 50.0
+
+  safety:
+    enable_joint_limits: false
+    enable_step_delta: false
+    max_step_delta: 0.3          # radians per cycle
+    latch_return_tolerance: 0.1 # radians
+    joint_limits: {}             # e.g. 0: {min: -3.14, max: 3.14}
+
+  port_configs:
+    "/dev/ttyUSB0":
+      joint_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      joint_signs: [1, 1, 1, 1, 1, 1, 1]
+      robot_joint_signs: [1, -1, 1, -1, -1, -1, 1]
+      gripper:
+        open_angle_deg: 281
+        closed_angle_deg: 234
+        gripper_invert: false
+        gripper_motor_id: 8
+        model: "XL330"
+        control: "position"
+        sign: 1
+        current_limit: 100
+
+    "/dev/ttyUSB1":
+      joint_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      joint_signs: [1, 1, 1, 1, 1, 1, 1]
+      robot_joint_signs: [-1, -1, 1, -1, 1, 1, 1]
+      gripper:
+        open_angle_deg: 167
+        closed_angle_deg: 212
+        gripper_invert: false
+        gripper_motor_id: 8
+        model: "XL330"
+        control: "position"
+        sign: 1
+        current_limit: 100

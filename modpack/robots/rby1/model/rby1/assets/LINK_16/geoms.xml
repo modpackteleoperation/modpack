@@ -1,0 +1,12 @@
+<mujoco>
+  <geom mesh="LINK_16_0" material="254,254,255" class="visual" />
+  <geom mesh="LINK_16_1" material="10,10,10" class="visual" />
+  <geom type="sphere" size="0.05" pos="0 0 -0.11" class="collision" />
+  <geom type="sphere" size="0.05" pos="0 0 -0.15" class="collision" />
+  <geom type="sphere" size="0.05" pos="0 0 -0.19" class="collision" />
+  <geom type="sphere" size="0.05" pos="0 0 -0.23" class="collision" />
+  <geom type="sphere" size="0.05" pos="0 0.02 -0.24" class="collision" />
+  <geom type="sphere" size="0.05" pos="0 -0.022 -0.24" class="collision" />
+  <geom type="sphere" size="0.045" pos="0.031 0.04 -0.275" class="collision" />
+  <geom type="sphere" size="0.045" pos="0.031 -0.042 -0.275" class="collision" />
+</mujoco>

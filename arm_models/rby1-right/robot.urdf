@@ -1,0 +1,1516 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<robot name="rby1">
+  <!-- Link assembly_2 -->
+  <link name="assembly_2">
+    <inertial>
+      <origin xyz="-0.0141107 -0.0908757 0.0457362" rpy="0 0 0"/>
+      <mass value="0.265428"/>
+      <inertia ixx="0.000269227" ixy="-6.67404e-05" ixz="9.42411e-05" iyy="0.000316411" iyz="3.94863e-05" izz="0.000354039"/>
+    </inertial>
+    <!-- Part 92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long -->
+    <visual>
+      <origin xyz="-0.0241092 -0.0812046 0.0327741" rpy="-3.14159 0.349066 1.46256e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0241092 -0.0812046 0.0327741" rpy="-3.14159 0.349066 1.46256e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_4 -->
+    <visual>
+      <origin xyz="0.239662 -0.0699546 0.0608703" rpy="3.14159 8.63555e-17 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4.stl"/>
+      </geometry>
+      <material name="part_4_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.239662 -0.0699546 0.0608703" rpy="3.14159 8.63555e-17 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_2 -->
+    <visual>
+      <origin xyz="-0.0268914 -0.0812046 0.0719109" rpy="6.54169e-17 0.349066 1.68409e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0268914 -0.0812046 0.0719109" rpy="6.54169e-17 0.349066 1.68409e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_3 -->
+    <visual>
+      <origin xyz="-0.0118563 -0.0812046 0.0664386" rpy="6.54169e-17 0.349066 1.68409e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0118563 -0.0812046 0.0664386" rpy="6.54169e-17 0.349066 1.68409e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part dc13_x540_dummy -->
+    <visual>
+      <origin xyz="-0.0254148 -0.119205 0.0525774" rpy="1.88245e-15 1.22173 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+      <material name="dc13_x540_dummy_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0254148 -0.119205 0.0525774" rpy="1.88245e-15 1.22173 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_4 -->
+    <visual>
+      <origin xyz="-0.0391443 -0.0812046 0.0382464" rpy="-3.14159 0.349066 1.46256e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+      <material name="92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0391443 -0.0812046 0.0382464" rpy="-3.14159 0.349066 1.46256e-16"/>
+      <geometry>
+        <mesh filename="package://assets/92125a086_18_8_stainless_steel_hex_drive_flat_head_screw_m2_5_x_0_45_mm_thread__8_mm_long.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_2_2 -->
+  <link name="assembly_2_2">
+    <inertial>
+      <origin xyz="-0.0102769 -0.000465428 -0.0343304" rpy="0 0 0"/>
+      <mass value="0.336295"/>
+      <inertia ixx="0.000569508" ixy="-1.20484e-06" ixz="-0.000294446" iyy="0.000833537" iyz="-4.34771e-06" izz="0.000368521"/>
+    </inertial>
+    <!-- Part part_1 -->
+    <visual>
+      <origin xyz="0.047 -5.27356e-16 0.0265" rpy="-1.58843e-15 4.57496e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+      <material name="part_1_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.047 -5.27356e-16 0.0265" rpy="-1.58843e-15 4.57496e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part dc13_x540_dummy_2 -->
+    <visual>
+      <origin xyz="-0.005 -0.00025 -0.0621061" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+      <material name="dc13_x540_dummy_2_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.005 -0.00025 -0.0621061" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long -->
+    <visual>
+      <origin xyz="0.011 -1.249e-16 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -1.249e-16 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_2 -->
+    <visual>
+      <origin xyz="0.00777817 0.00777817 0.000875" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 0.000875" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_3 -->
+    <visual>
+      <origin xyz="0.00777817 0.00777817 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_4 -->
+    <visual>
+      <origin xyz="-1.17961e-16 -0.011 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.17961e-16 -0.011 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_5 -->
+    <visual>
+      <origin xyz="-1.17961e-16 -0.011 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.17961e-16 -0.011 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_6 -->
+    <visual>
+      <origin xyz="1.04083e-16 0.011 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.04083e-16 0.011 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_7 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fr13_h101 -->
+    <visual>
+      <origin xyz="-6.93889e-18 0 0.0265" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+      <material name="fr13_h101_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-6.93889e-18 0 0.0265" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_8 -->
+    <visual>
+      <origin xyz="0.011 -1.249e-16 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -1.249e-16 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_9 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_9_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.00075" rpy="3.14159 -4.35921e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_10 -->
+    <visual>
+      <origin xyz="9.71445e-17 0.011 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_10_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="9.71445e-17 0.011 0.05225" rpy="2.7155e-15 6.66434e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_3 -->
+  <link name="assembly_3">
+    <inertial>
+      <origin xyz="0.0219273 -0.0992799 0.0244999" rpy="0 0 0"/>
+      <mass value="0.39153"/>
+      <inertia ixx="0.0012083" ixy="5.97896e-05" ixz="-1.41969e-09" iyy="0.000278371" iyz="4.45571e-09" izz="0.00134629"/>
+    </inertial>
+    <!-- Part dc13_x540_dummy_3 -->
+    <visual>
+      <origin xyz="8.04912e-16 -0.1462 0.0245" rpy="1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+      <material name="dc13_x540_dummy_3_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="8.04912e-16 -0.1462 0.0245" rpy="1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_4_2 -->
+    <visual>
+      <origin xyz="2.498e-16 -0.027 0.0245" rpy="-4.98263e-15 2.10455e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4__2.stl"/>
+      </geometry>
+      <material name="part_4_2_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.498e-16 -0.027 0.0245" rpy="-4.98263e-15 2.10455e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_11 -->
+    <visual>
+      <origin xyz="1.66533e-16 -0.011 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_11_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.66533e-16 -0.011 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_12 -->
+    <visual>
+      <origin xyz="-0.00777817 -0.00777817 0.050125" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_12_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00777817 -0.00777817 0.050125" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_13 -->
+    <visual>
+      <origin xyz="-0.00777817 -0.00777817 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_13_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00777817 -0.00777817 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_14 -->
+    <visual>
+      <origin xyz="0.011 -3.88578e-16 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_14_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -3.88578e-16 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_15 -->
+    <visual>
+      <origin xyz="0.011 -4.02456e-16 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_15_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -4.02456e-16 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_16 -->
+    <visual>
+      <origin xyz="-0.011 -5.06539e-16 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_16_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.011 -5.06539e-16 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_17 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_17_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fr13_h101_2 -->
+    <visual>
+      <origin xyz="1.11022e-16 -4.51028e-16 0.0245" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+      <material name="fr13_h101_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.11022e-16 -4.51028e-16 0.0245" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_18 -->
+    <visual>
+      <origin xyz="1.94289e-16 -0.011 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_18_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.94289e-16 -0.011 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_19 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_19_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="-8.44676e-17 3.43093e-15 5.50624e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_20 -->
+    <visual>
+      <origin xyz="-0.011 -5.13478e-16 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_20_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.011 -5.13478e-16 -0.00125" rpy="3.14159 2.59719e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_4 -->
+  <link name="assembly_4">
+    <inertial>
+      <origin xyz="0.0143815 -0.000358049 -0.0931076" rpy="0 0 0"/>
+      <mass value="0.437153"/>
+      <inertia ixx="0.00245652" ixy="-5.07233e-06" ixz="-0.000576256" iyy="0.00274335" iyz="-8.97557e-06" izz="0.000423587"/>
+    </inertial>
+    <!-- Part link_2 -->
+    <visual>
+      <origin xyz="0.027 -1.38778e-16 0.0245" rpy="8.24837e-15 -3.47509e-15 5.25802e-16"/>
+      <geometry>
+        <mesh filename="package://assets/link_2.stl"/>
+      </geometry>
+      <material name="link_2_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.027 -1.38778e-16 0.0245" rpy="8.24837e-15 -3.47509e-15 5.25802e-16"/>
+      <geometry>
+        <mesh filename="package://assets/link_2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part dc13_x540_dummy_4 -->
+    <visual>
+      <origin xyz="-0.031 -0.00025 -0.15045" rpy="1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+      <material name="dc13_x540_dummy_4_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.031 -0.00025 -0.15045" rpy="1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_21 -->
+    <visual>
+      <origin xyz="0.011 0 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_21_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 0 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_22 -->
+    <visual>
+      <origin xyz="0.00777817 0.00777817 -0.001125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_22_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 -0.001125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_23 -->
+    <visual>
+      <origin xyz="0.00777817 0.00777817 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_23_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 0.00777817 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_24 -->
+    <visual>
+      <origin xyz="0 -0.011 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_24_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.011 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_25 -->
+    <visual>
+      <origin xyz="-2.77556e-17 -0.011 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_25_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.77556e-17 -0.011 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_26 -->
+    <visual>
+      <origin xyz="0 0.011 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_26_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.011 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_27 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_27_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fr13_h101_3 -->
+    <visual>
+      <origin xyz="-1.38778e-17 0 0.0245" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+      <material name="fr13_h101_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 0 0.0245" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_28 -->
+    <visual>
+      <origin xyz="0.011 2.77556e-17 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_28_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 2.77556e-17 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_29 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_29_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="-3.14159 4.09539e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_30 -->
+    <visual>
+      <origin xyz="-4.16334e-17 0.011 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_30_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-4.16334e-17 0.011 0.05025" rpy="-1.5021e-15 -3.44264e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_6 -->
+  <link name="assembly_6">
+    <inertial>
+      <origin xyz="0.00172449 -0.11038 0.0244999" rpy="0 0 0"/>
+      <mass value="0.355792"/>
+      <inertia ixx="0.000974267" ixy="9.34933e-05" ixz="-2.60174e-10" iyy="0.000222033" iyz="5.25985e-09" izz="0.00107691"/>
+    </inertial>
+    <!-- Part link_3 -->
+    <visual>
+      <origin xyz="0 -0.044 0.0245" rpy="1.5708 -2.47769e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/link_3.stl"/>
+      </geometry>
+      <material name="link_3_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.044 0.0245" rpy="1.5708 -2.47769e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/link_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part dc13_x540_dummy_5 -->
+    <visual>
+      <origin xyz="0.031 -0.14865 0.0245" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+      <material name="dc13_x540_dummy_5_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.031 -0.14865 0.0245" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dc13_x540_dummy.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_31 -->
+    <visual>
+      <origin xyz="0 -0.011 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_31_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.011 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_32 -->
+    <visual>
+      <origin xyz="-0.00777817 -0.00777817 0.050125" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_32_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00777817 -0.00777817 0.050125" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_33 -->
+    <visual>
+      <origin xyz="-0.00777817 -0.00777817 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_33_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00777817 -0.00777817 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_34 -->
+    <visual>
+      <origin xyz="0.011 2.77556e-17 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_34_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 2.77556e-17 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_35 -->
+    <visual>
+      <origin xyz="0.011 -2.77556e-17 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_35_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -2.77556e-17 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_36 -->
+    <visual>
+      <origin xyz="-0.011 5.55112e-17 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_36_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.011 5.55112e-17 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_37 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_37_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fr13_h101_4 -->
+    <visual>
+      <origin xyz="0 2.77556e-17 0.0245" rpy="-3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+      <material name="fr13_h101_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 2.77556e-17 0.0245" rpy="-3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_38 -->
+    <visual>
+      <origin xyz="0 -0.011 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_38_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.011 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_39 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_39_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="5.49015e-15 2.13594e-15 -1.98626e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_40 -->
+    <visual>
+      <origin xyz="-0.011 0 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_40_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.011 0 -0.00125" rpy="3.14159 -4.0063e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_7 -->
+  <link name="assembly_7">
+    <inertial>
+      <origin xyz="0.000243447 -0.0318704 -0.034819" rpy="0 0 0"/>
+      <mass value="0.275039"/>
+      <inertia ixx="0.000828399" ixy="-1.35559e-06" ixz="3.25924e-06" iyy="0.000758613" iyz="8.5207e-05" izz="0.000132813"/>
+    </inertial>
+    <!-- Part dummy_dc12 -->
+    <visual>
+      <origin xyz="0.00025 1.24145e-12 -0.0835" rpy="1.05472e-14 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dummy_dc12.stl"/>
+      </geometry>
+      <material name="dummy_dc12_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00025 1.24145e-12 -0.0835" rpy="1.05472e-14 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dummy_dc12.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_4_3 -->
+    <visual>
+      <origin xyz="-2.498e-16 -0.027 0.0245" rpy="6.70297e-15 1.19601e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4__3.stl"/>
+      </geometry>
+      <material name="part_4_3_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.498e-16 -0.027 0.0245" rpy="6.70297e-15 1.19601e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_41 -->
+    <visual>
+      <origin xyz="-1.38778e-16 -0.011 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_41_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-16 -0.011 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_42 -->
+    <visual>
+      <origin xyz="-0.00777817 -0.00777817 0.050125" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_42_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00777817 -0.00777817 0.050125" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_43 -->
+    <visual>
+      <origin xyz="-0.00777817 -0.00777817 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_43_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00777817 -0.00777817 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_44 -->
+    <visual>
+      <origin xyz="0.011 -8.32667e-17 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_44_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -8.32667e-17 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_45 -->
+    <visual>
+      <origin xyz="0.011 -1.11022e-16 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_45_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011 -1.11022e-16 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_46 -->
+    <visual>
+      <origin xyz="-0.011 8.32667e-17 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_46_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.011 8.32667e-17 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_47 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_47_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fr13_h101_5 -->
+    <visual>
+      <origin xyz="-2.77556e-17 -2.77556e-17 0.0245" rpy="-3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+      <material name="fr13_h101_5_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.77556e-17 -2.77556e-17 0.0245" rpy="-3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr13_h101.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_48 -->
+    <visual>
+      <origin xyz="-1.11022e-16 -0.011 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_48_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.11022e-16 -0.011 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_49 -->
+    <visual>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_49_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00777817 -0.00777817 0.05025" rpy="-4.16334e-16 -8.48119e-15 -8.53916e-15"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_50 -->
+    <visual>
+      <origin xyz="-0.011 8.32667e-17 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+      <material name="91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long_50_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.011 8.32667e-17 -0.00125" rpy="-3.14159 7.82831e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/91290a099_alloy_steel_socket_head_m2_5_x_0_45_mm_thread__4_mm_long.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_8 -->
+  <link name="assembly_8">
+    <inertial>
+      <origin xyz="0.0476462 -0.0179547 0.01899" rpy="0 0 0"/>
+      <mass value="0.187206"/>
+      <inertia ixx="8.92212e-05" ixy="1.1334e-05" ixz="1.23953e-09" iyy="8.28332e-05" iyz="-7.96224e-09" izz="0.000118499"/>
+    </inertial>
+    <!-- Part part_5 -->
+    <visual>
+      <origin xyz="0.04 -1.38778e-16 0.019" rpy="1.5708 3.43309e-14 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_5.stl"/>
+      </geometry>
+      <material name="part_5_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.04 -1.38778e-16 0.019" rpy="1.5708 3.43309e-14 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part dummy_dc12_2 -->
+    <visual>
+      <origin xyz="0.0581151 -1.24004e-12 0.019" rpy="-1.36089e-16 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dummy_dc12.stl"/>
+      </geometry>
+      <material name="dummy_dc12_2_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0581151 -1.24004e-12 0.019" rpy="-1.36089e-16 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/dummy_dc12.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long -->
+    <visual>
+      <origin xyz="0.00565685 -0.00565685 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 -0.00565685 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_2 -->
+    <visual>
+      <origin xyz="0.008 0 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_2_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.008 0 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fr12_h101 -->
+    <visual>
+      <origin xyz="0 0 0.019" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr12_h101.stl"/>
+      </geometry>
+      <material name="fr12_h101_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.019" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/fr12_h101.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_3 -->
+    <visual>
+      <origin xyz="0.00565685 0.00565685 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_3_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 0.00565685 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_4 -->
+    <visual>
+      <origin xyz="-5.55112e-17 0.008 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_4_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-5.55112e-17 0.008 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_5 -->
+    <visual>
+      <origin xyz="0.00565685 0.00565685 0.03925" rpy="-5.10543e-15 -3.42653e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_5_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 0.00565685 0.03925" rpy="-5.10543e-15 -3.42653e-15 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_6 -->
+    <visual>
+      <origin xyz="0.008 0 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_6_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.008 0 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_7 -->
+    <visual>
+      <origin xyz="-5.55112e-17 0.008 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_7_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-5.55112e-17 0.008 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_8 -->
+    <visual>
+      <origin xyz="-1.11022e-16 -0.008 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_8_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.11022e-16 -0.008 -0.00125" rpy="-3.14159 4.23587e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_9 -->
+    <visual>
+      <origin xyz="0 -0.008 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_9_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.008 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_10 -->
+    <visual>
+      <origin xyz="0.00565685 -0.00565685 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+      <material name="91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long_10_material">
+        <color rgba="0.752941 0.752941 0.752941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00565685 -0.00565685 0.03925" rpy="5.11503e-15 4.53969e-15 -1.65413"/>
+      <geometry>
+        <mesh filename="package://assets/91290a051_alloy_steel_socket_head_screw_m2_5_x_0_45_mm_thread__3_mm_long.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_2_3 -->
+  <link name="assembly_2_3">
+    <inertial>
+      <origin xyz="0.00808498 0.0489733 -0.0357482" rpy="0 0 0"/>
+      <mass value="0.134857"/>
+      <inertia ixx="0.000228038" ixy="2.1771e-05" ixz="1.77937e-05" iyy="6.30213e-05" iyz="-1.6906e-05" izz="0.000210356"/>
+    </inertial>
+    <!-- Part right_holder -->
+    <visual>
+      <origin xyz="0.021 0.0130472 0.02501" rpy="-9.90705e-17 6.58355e-17 1.17802e-15"/>
+      <geometry>
+        <mesh filename="package://assets/right_holder.stl"/>
+      </geometry>
+      <material name="right_holder_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.021 0.0130472 0.02501" rpy="-9.90705e-17 6.58355e-17 1.17802e-15"/>
+      <geometry>
+        <mesh filename="package://assets/right_holder.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_2 -->
+    <visual>
+      <origin xyz="-0.0253634 0.0372972 -0.0447203" rpy="-3.14159 3.5217e-16 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__2.stl"/>
+      </geometry>
+      <material name="part_1_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0253634 0.0372972 -0.0447203" rpy="-3.14159 3.5217e-16 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_4_4 -->
+    <visual>
+      <origin xyz="0.1228 0.0272972 -0.06599" rpy="-4.15668e-16 0.560032 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4__4.stl"/>
+      </geometry>
+      <material name="part_4_4_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1228 0.0272972 -0.06599" rpy="-4.15668e-16 0.560032 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/part_4__4.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from assembly_8 to assembly_2_3 -->
+  <joint name="7" type="revolute">
+    <origin xyz="0.0771151 -1.24004e-12 0.019" rpy="3.14159 1.5708 0"/>
+    <parent link="assembly_8"/>
+    <child link="assembly_2_3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_7 to assembly_8 -->
+  <joint name="6" type="revolute">
+    <origin xyz="0.01725 1.24126e-12 -0.0835" rpy="-3.14159 1.5708 0"/>
+    <parent link="assembly_7"/>
+    <child link="assembly_8"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_6 to assembly_7 -->
+  <joint name="5" type="revolute">
+    <origin xyz="0.031 -0.17315 0.0245" rpy="-1.5708 1.5708 0"/>
+    <parent link="assembly_6"/>
+    <child link="assembly_7"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_4 to assembly_6 -->
+  <joint name="4" type="revolute">
+    <origin xyz="-0.031 -0.02475 -0.15045" rpy="-1.5708 -1.5708 0"/>
+    <parent link="assembly_4"/>
+    <child link="assembly_6"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_3 to assembly_4 -->
+  <joint name="3" type="revolute">
+    <origin xyz="9.71445e-16 -0.1707 0.0245" rpy="-1.5708 -1.5708 0"/>
+    <parent link="assembly_3"/>
+    <child link="assembly_4"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_2_2 to assembly_3 -->
+  <joint name="2" type="revolute">
+    <origin xyz="-0.005 -0.02475 -0.0621061" rpy="-1.5708 1.5708 0"/>
+    <parent link="assembly_2_2"/>
+    <child link="assembly_3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_2 to assembly_2_2 -->
+  <joint name="1" type="revolute">
+    <origin xyz="-0.0484373 -0.119205 0.0609569" rpy="-3.14159 1.22173 3.14159"/>
+    <parent link="assembly_2"/>
+    <child link="assembly_2_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+</robot>

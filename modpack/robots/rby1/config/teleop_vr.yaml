@@ -1,0 +1,5 @@
+# Teleop configuration for Meta Quest VR control. Update IPs/ports for your network.
+local_ip: "192.168.50.1"        # IP of this machine on the same network as the headset
+meta_quest_ip: "192.168.50.76"  # IP of the Meta Quest headset
+local_port: 5005                # UDP port to bind locally
+meta_quest_port: 6000           # UDP port on the headset to send discovery packet
